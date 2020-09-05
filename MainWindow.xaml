@@ -1,0 +1,26 @@
+﻿<Window x:Class="LFP_PROYECTO1_Simple_IDE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LFP_PROYECTO1_Simple_IDE"
+        mc:Ignorable="d"
+        Title="LFP_PROYECTO1_Simple_IDE - 200130586 Ronald Danilo Chávez Calderón" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="792">
+            <MenuItem Header="Archivos">
+                <MenuItem Header="Crear Proyecto"/>
+                <MenuItem Header="Eliminar Proyecto"/>
+                <MenuItem Header="Abrir Proyecto"/>
+                <MenuItem Header="Cerrar proyecto"/>
+                <MenuItem Header="---------------"/>
+                <MenuItem Header="Crear Archivo"/>
+                <MenuItem Header="Eliminar Archivo"/>
+                <MenuItem Header="Abrir Archivo"/>
+                <MenuItem Header="Cerrar Archivo"/>
+                <MenuItem Header="---------------"/>
+                <MenuItem Header="Salir"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
